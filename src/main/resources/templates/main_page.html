@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/main.css">
+    <meta charset="UTF-8">
+    <title>Home</title>
+</head>
+<body>
+
+<div th:replace="fragments/header :: header"></div>
+
+<main role="main">
+    <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+        <div class="col-md-5 p-lg-5 mx-auto my-5">
+            <h1 class="display-4 font-weight-normal">Quotes App</h1>
+            <p class="lead font-weight-normal">That application is used to interpret quotes into sentence structures.</p>
+            <p class="lead font-weight-light">A Java full stack application with Thymeleaf/VueJS on a MySQL database and Spring Data REST as our Back end REST API.</p>
+        </div>
+        <div class="product-device shadow-sm d-none d-md-block"></div>
+        <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+    </div>
+
+<div th:replace="fragments/page-title :: page-title ('Grab a coffee and read the quotes!')"></div>
+<br>
+<div class="container d-flex flex-column flex-md-row justify-content-center" style="text-align: center;">
+    <div class="row">
+        <div class="col-sm">
+                <div class="card-body">
+                    <h5 class="card-title">Quotes</h5>
+                    <p class="card-text">Uses <a href="https://opennlp.apache.org/">openNPL</a> on a JAVA Spring backend to process quotations stored in a MySQL database with Vue to display it.</p>
+                    <a class="btn btn-primary" href="/quotes">View Quotes</a>
+                </div>
+        </div>
+    </div>
+</div>
+</main>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
