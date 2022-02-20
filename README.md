@@ -1,4 +1,9 @@
-# Java Spring Boot/VueJS OpenNLP Quote
+<h1 align='center'> <b>Java Spring Boot/VueJS OpenNLP Quote</b><br>
+	<img src="https://img.shields.io/badge/Java-ED8B00?style=plastic&logo=java&logoColor=white">
+	<img src="https://img.shields.io/badge/SpringBoot-6DB33F?style=plastic&logo=spring&logoColor=white">
+	<img src="https://img.shields.io/badge/Vue.js-35495E?style=plastic&logo=vue.js&logoColor=4FC08D">
+	<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=plastic&logo=javascript&logoColor=black">
+</h1>
 
 A Java full stack application on a MySQL database using VueJS as the Front end Framework and Spring Boot as the Back end REST API.
 
@@ -45,8 +50,8 @@ The MySQL database can be implemented using Flyway along with the sql files avai
 ## Screenshots of the application:
 <p align="center">
 
-<img src="https://i.imgur.com/XBug3Sy.png"/>
+<img src="https://i.imgur.com/966R9cf.png"/>
 
-<img src="https://i.imgur.com/i263QAT.png"/>
+<img src="https://i.imgur.com/PR7E2h7.png"/>
 
 </p>
